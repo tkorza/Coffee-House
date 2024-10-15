@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: #E1D4C9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #403F3D;
+}
+
+header nav {
+    display: flex;
+    gap: 40px;
+}
+
+header p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+header .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+header .navigation .icon {
+    background-image: url(./img/coffee-cup.png);
+    width: 20px;
+    height: 20px;
+}
+
+.preview {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.preview h1 {
+    font: 600 60px Inter;
+    line-height: 75px;
+    text-align: center;
+    color: #403F3D;
+    width: 800px;
+}
+
+.preview h1 span {
+    font: 600 60px Inter;
+    font-style: italic;
+    line-height: 75px;
+    text-align: center;
+    color: #B0907A;
+}
+
+.preview .wrapper-type {
+    margin-top: 40px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.wrapper-type .part-of-type {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    border: 1px solid #C1B6AD;
+    max-width: max-content;
+    align-items: center;
+    border-radius: 100px;
+    padding: 11px 16px 11px 8px;
+}
+
+.preview .wrapper-type p {
+    font: 600 16px Inter;
+    line-height: 24px;
+    text-align: left;
+    color: #403F3D;
+    align-items: center;
+}
+
+.wrapper-icon {
+    display: flex;
+    border-radius: 100px;
+    background-color: #C1B6AD;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.preview .wrapper-type .icon1 {
+    background-image: url(./img/cup1.png);
+    width: 16px;
+    height: 17px;
+    background-repeat: no-repeat;
+}
+
+
+.preview .wrapper-type .icon2 {
+    background-image: url(./img/cup2.png);
+    width: 16px;
+    height: 17px;
+    background-repeat: no-repeat;
+}
+
+.preview .wrapper-type .icon3 {
+    background-image: url(./img/cup3.png);
+    width: 16px;
+    height: 17px;
+    background-repeat: no-repeat;
+}
+
+.coffee-products {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 40px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.item-coffe {
+    width: 310px;
+    border: 1px solid #C1B6AD;
+    border-radius: 40px;
+    height:506px;
+}
+
+.item-coffe .coffe-text-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+
+
+.item-coffe h2 {
+    font: 600 24px Inter;
+    line-height: 30px;
+    text-align: left;
+    color: #403F3D;
+}
+
+.item-coffe p {
+    font: 400 16px Inter;
+    line-height: 24px;
+    text-align: left;
+    color: #403F3D;
+}
+
+.item-coffe h3 {
+    font: 600 24px Inter;
+    line-height: 30px;
+    text-align: left;
+    color: #403F3D;
+}
+
+.item-coffe img {
+    max-width: 309px;
+    border-radius: 40px;
+}
+footer {
+    display: flex;
+    gap: 150px;
+    background-color: #665F55;
+    border-radius: 40px;
+    padding: 100px 0 100px 100px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+footer h2 {
+    font: 600 60px Inter;
+    line-height: 75px;
+    text-align: left;
+    color: #E1D4C9;
+}
+
+footer h2 span {
+    color: #B0907A;
+    font-style: italic;
+}
+
+footer .left-part .social-network {
+    display: flex;
+    gap: 12px;
+    padding-top: 40px;
+}
+
+footer .left-part .social-network .border-icon {
+    border: 1px solid #C1B6AD;
+    width: max-content;
+    border-radius: 100px;
+    padding: 15px;
+
+}
+
+footer .left-part .social-network .border-icon .tw {
+    background-image: url(./img/twitter.svg);
+    width: 24px;
+    height: 24px;
+}
+
+footer .left-part .social-network .border-icon .inst {
+    background-image: url(./img/instagram.svg);
+    width: 24px;
+    height: 24px;
+}
+
+footer .left-part .social-network .border-icon .fc {
+    background-image: url(./img/facebook.svg);
+    width: 24px;
+    height: 24px;
+}
+
+footer h3 {
+    font: 600 24px Inter;
+    line-height: 30px;
+    text-align: left;
+    color: #E1D4C9;
+}
+footer .right-part{
+    padding-top: 32px;
+}
+footer p {
+    font:600 16px Inter;
+    line-height: 24px;
+    text-align: left;
+    color: #E1D4C9;
+
+}
+
+footer .info {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer .right-part .info .part-of-info {
+    display: flex;
+    gap: 4px;
+}

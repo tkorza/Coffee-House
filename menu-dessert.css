@@ -144,13 +144,12 @@ header nav p:hover {
     flex-wrap: wrap;
     gap: 40px;
     padding-top: 40px;
-
 }
 
 .content {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    align-content: space-between;
     padding: 20px;
 }
 

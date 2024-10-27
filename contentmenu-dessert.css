@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    display: flex;
+    align-content: center;
+    width: 800px;
+    background-color: #E1D4C9;
+    border-radius: 40px;
+    padding: 16px;
+    gap: 20px;
+    margin: auto;
+}
+
+.left-part {
+    width: 310px;
+    height: 310px;
+    border-radius: 40px;
+    background-image: url(./img/dessert-1.png);
+}
+
+.right-part {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.right-part h1 {
+    font: 600 24px Inter;
+    line-height: 30px;
+    text-align: left;
+    color: #403F3D;
+}
+
+.right-part p {
+    font: 400 16px Inter;
+    line-height: 24px;
+    text-align: left;
+    color: #403F3D;
+}
+
+.right-part .aboutCoffee {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.right-part .size-additivies-layot {
+    display: flex;
+    gap: 8px;
+    padding-top: 8px;
+}
+
+.right-part .size-additivies-layot div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border: 1px solid #C1B6AD;
+    border-radius: 100px;
+    justify-content: space-between;
+    padding: 8px 16px 8px 8px;
+}
+
+.right-part .size-additivies-layot .valueSize {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #C1B6AD;
+    border-radius: 100px;
+}
+
+.right-part .size-additivies-layot .valueAdditivies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #C1B6AD;
+    border-radius: 100px;
+}
+
+.right-part .size-additivies-layot p {
+    font: 600 16px Inter;
+    line-height: 24px;
+    text-align: left;
+}
+
+.Total-price {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #C1B6AD;
+}
+
+.Total-price p {
+    font: 600 24px Inter;
+    line-height: 30px;
+    text-align: left;
+    color: #403F3D;
+}
+
+.info-about-price{
+    display: flex;
+}
+.info-about-price p {
+    width: 414px;
+    font: 600 10px Inter;
+    line-height: 14px;
+    text-align: left;
+    color: #403F3D;
+}
+.info-about-price .icon{
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-image: url(./img/info-empty.svg);
+}
+.close-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border:1px solid #665F55;
+    border-radius: 100px;
+    padding: 10px 0 10px 0;
+}
